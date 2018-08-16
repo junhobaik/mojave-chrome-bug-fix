@@ -1,0 +1,17 @@
+{
+  "name": "Mojave Chrome Bug Fix - checkbox, radiobutton",
+  "short_name": "Mojave Chrome Bug Fix",
+  "version": "1.0",
+  "icons": {
+    "128": "icon.png"
+  },
+  "manifest_version": 2,
+  "description": "Fix chrome checkbox and radiobutton invisible issue on macOS Mojave 10.14(beta)",
+  "permissions": ["activeTab", "declarativeContent"],
+  "content_scripts": [
+    {
+      "js": ["watch.js"],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}
