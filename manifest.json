@@ -1,7 +1,7 @@
 {
   "name": "Mojave Chrome Bug Fix - checkbox, radiobutton",
   "short_name": "Mojave Chrome Bug Fix",
-  "version": "1.0",
+  "version": "1.1",
   "icons": {
     "128": "icon.png"
   },
